@@ -390,6 +390,9 @@ a:hover{text-decoration: none; cursor:pointer;}
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
 
+.mg-clear{
+	margin:0;
+}
 .mg-md{
 	margin-top:10px;
 	margin-bottom:20px;
@@ -696,6 +699,24 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .img-3-style{
 	width:412px;
 }
+.h1-2-style{
+	width:100%;
+	font-size:30px;
+	font-weight:bold;
+	color:transparent!important;
+	background:linear-gradient(126deg, #8200F4 0%, #FF26F6 100%);
+	background-clip:text!important;
+	-webkit-background-clip:text!important;
+}
+.h2-11-style{
+	width:98.51%;
+	font-size:20px;
+	font-weight:lighter;
+	color:#FFFFFF!important;
+}
+.crie{
+	background-color:#9297E0;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -869,6 +890,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.h3-bloc-102-style{
 		font-size:30px;
+	}
+	.oprt{
+		color:rgba(255,0,9,0.97)!important;
+	}
+	.h2-11-style{
+		font-size:15px;
 	}
 	
 }
